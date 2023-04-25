@@ -2,8 +2,8 @@ import math
 import torch
 import torch.nn as nn
 import torch.nn.utils.parametrize as P
-from models.multi_conv import MultiConv2d
-from models.linear_spline import LinearSpline
+from cvx_nn_models.multi_conv import MultiConv2d
+from cvx_nn_models.linear_spline import LinearSpline
 
 
 class ConvexRidgeRegularizer(nn.Module):

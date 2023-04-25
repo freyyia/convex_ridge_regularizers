@@ -10,7 +10,7 @@ import os
 import sys
 
 sys.path.append("../")
-from models import utils
+from cvx_nn_models import utils
 from training.data import dataset
 import pandas as pd
 

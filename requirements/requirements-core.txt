@@ -1,0 +1,6 @@
+# Core packages
+numpy 
+torch
+pandas
+tensorboard
+matplotlib

@@ -11,7 +11,7 @@ import sys
 
 sys.path.append("../")
 from hyperparameter_tuning.validateCoarseToFine import ValidateCoarseToFine
-from models import utils
+from cvx_nn_models import utils
 from training.data import dataset
 
 

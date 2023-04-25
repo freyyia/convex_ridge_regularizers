@@ -5,7 +5,7 @@ import sys
 import math
 import torch
 sys.path.append('../')
-from models.convex_ridge_regularizer import ConvexRidgeRegularizer
+from cvx_nn_models.convex_ridge_regularizer import ConvexRidgeRegularizer
 from pathlib import Path
 
 def load_model(name, device='cuda:0', epoch=None):

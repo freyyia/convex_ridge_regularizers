@@ -12,7 +12,7 @@ ssim = StructuralSimilarityIndexMeasure()
 
 
 sys.path.insert(0,"../")
-from models.utils import build_model, tStepDenoiser
+from cvx_nn_models.utils import build_model, tStepDenoiser
 
 class Trainer:
     """
