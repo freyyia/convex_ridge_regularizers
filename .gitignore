@@ -1,6 +1,7 @@
 # repo specific
 training/data/preprocessed/
 bin/
+<<<<<<< HEAD
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -138,3 +139,11 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+=======
+**/mayo_data/
+**/recon/
+**/data/data_sets/
+**/__pycache__/
+**/data_sets*
+**/*tar.gz
+>>>>>>> 5bd6e3ee3c9e0188f333a8cc3f5dcf7ff8b8e902
